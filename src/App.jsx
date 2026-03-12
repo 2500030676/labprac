@@ -5,6 +5,7 @@ import AdminLogin from './AdminLogin'
 import AdminDashBoard from './AdminDashBoard'
 import ApiData from './ApiData'
 import RegisteredUsers from './RegisteredUsers'
+import AdminHome from './AdminHome'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="/admin" element={<AdminDashBoard/>}/>
         <Route path="/api" element={<ApiData/>}/>
         <Route path="/registers" element={<RegisteredUsers/>}/>
+        <Route path="/adhome" element={<AdminHome/>}/>
       </Routes>
 
     </BrowserRouter>

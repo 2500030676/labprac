@@ -25,6 +25,7 @@ export default function RegisteredUsers() {
             <th>Email</th>
             <th>Contact</th>
             <th>Password</th>
+            <th>Gender</th>
           </tr>
         </thead>
 
@@ -42,6 +43,7 @@ export default function RegisteredUsers() {
                 <td>{value.email}</td>
                 <td>{value.contact}</td>
                 <td>{value.password}</td>
+                <td>{value.gender}</td>
               </tr>
             ))
           )}
