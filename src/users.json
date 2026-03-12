@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "name": "Zaara masroor",
+    "email": "zara@gmail.com",
+    "contact":5428165154
+  },
+  {
+    "id": 2,
+    "name": "K.Prasanthi",
+    "email": "prasanthi@gmail.com",
+    "contact":78854785451
+  },
+
+  {
+    "id": 3,
+    "name": "K.Dhana sri",
+    "email": "dhana@gmail.com",
+    "contact":2522525212
+  },
+  {
+    "id": 4,
+    "name": "K.Varalaxmi",
+    "email": "varalaxmi@gmail.com",
+    "contact":7475858585
+  },
+  {"id": 5,
+    "name": "K.Satish",
+    "email": "satish@gmail.com",
+    "contact":8500651209
+  },
+  {"id": 6,
+    "name": "K.Sandy",
+    "email": "sandy@gmail.com",
+    "contact":957554454
+  },
+  {"id": 7,
+    "name": "M.Arumutha siri",
+    "email": "arumutha@gmail.com",
+    "contact":855500011
+  },
+  {"id": 8,
+    "name": "L.Veera Venkata Satya Baghya Mahalakshmi",
+    "email": "satya@gmail.com",
+    "contact":1784182585
+  },
+   {"id": 9,
+    "name": "Ch.Nagasri",
+    "email": "nagasri@gmail.com",
+    "contact":1582165154
+  }
+]
