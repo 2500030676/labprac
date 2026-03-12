@@ -7,15 +7,17 @@ export default function UserRegistration() {
   const [email, setEmail] = useState("")
   const [contact, setContact] = useState("")
   const [gender, setGender] = useState("")
+  const [password, setPassword] = useState("")
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    const userData = { name, email, contact, gender }
+    const userData = { name, email, contact,password,gender }
     localStorage.setItem("userData", JSON.stringify(userData))
     alert(`Form submittedd Successfully ${name}`)
     setName("")
     setEmail("")
     setContact("")
+    setPassword("")
     setGender("")
   }
   return (
@@ -30,6 +32,8 @@ export default function UserRegistration() {
         <pre></pre>
         <label>Enter Contact:</label>
         <input value={contact} required onChange={(e) => setContact(e.target.value)}/><br/>
+        <label >password:</label>
+        <input  value={password} type="password" required onChange={(e) => setPassword(e.target.value)}/><br/>
         <pre></pre>
         <label>Select Gender</label>
         <select value={gender} required onChange={(e) => setGender(e.target.value)}>
